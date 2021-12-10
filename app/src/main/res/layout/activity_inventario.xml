@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inventario">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inventario"
+                android:textColor="@color/orange"
+                android:gravity="center"
+                android:textSize="30dp"/>
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="Buscar.."
+                android:contextClickable="true"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnMostrarT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:layout_gravity="center"
+                    android:text="Mostrar Todo"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/AddP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar Producto"
+                android:textColor="@color/white"
+                android:backgroundTint="#36a609"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/orange"
+        app:itemIconTint="@drawable/serlector"
+        app:itemTextColor="@drawable/serlector"
+        app:menu="@menu/menu" />
+
+</RelativeLayout>

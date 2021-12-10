@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MostrarTodo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="datos"
+                android:textSize="15sp"/>
+            <EditText
+                android:id="@+id/etNombreP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Producto"
+                android:autofillHints=""
+                android:textSize="12sp"/>
+            <EditText
+                android:id="@+id/etCantidadP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Cantidad"
+                android:autofillHints=""
+                android:textSize="12sp"/>
+            <EditText
+                android:id="@+id/etPrecioP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Precio"
+                android:autofillHints=""
+                android:textSize="12sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/btnModificaT"
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:text="Modificar"
+                    android:backgroundTint="@color/orange"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:layout_margin="10dp"/>
+
+
+                <Button
+                    android:id="@+id/btnEliminaT"
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/orange"
+                    android:textColorHint="@color/white"
+                    android:layout_gravity="center"
+                    android:text="Eliminar"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="lista"
+            android:textSize="15sp"/>
+        <ListView
+            android:id="@+id/lvListaElementos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="5dp"
+            android:smoothScrollbar="true"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "973000594840",
+    "project_id": "control2-54307",
+    "storage_bucket": "control2-54307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973000594840:android:7521c59add1c48e02e07ed",
+        "android_client_info": {
+          "package_name": "com.example.controlv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973000594840-16jevfuscrv7vv4f3dnjnncgp95vhhmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.controlv2",
+            "certificate_hash": "da73d25f201d96bea6eef35e92d828f860d76a57"
+          }
+        },
+        {
+          "client_id": "973000594840-hi8njneu1tvbem938cj8m220cen8ea2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw40xX-u885hCBMK5yPOUln8A1-qE6tvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973000594840-hi8njneu1tvbem938cj8m220cen8ea2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

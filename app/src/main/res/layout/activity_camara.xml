@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camara"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv_visor"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:contentDescription="@string/app_name"
+        />
+
+    <Button
+        android:id="@+id/btncamara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="Camara"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
